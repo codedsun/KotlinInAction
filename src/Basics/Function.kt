@@ -8,6 +8,8 @@ fun max(var1: Int, var2 :Int) :Int{
 //Function is an expression here hence we have evaluated the braces
 fun max1(a : Int, b:Int ):Int = if(a>b) a else b
 
+fun max2(a: Int, b: Int) = if(a>b)a else b
+
 fun main(args: Array<String>){
     print(max(1,2))
 }
