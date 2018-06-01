@@ -12,6 +12,10 @@ fun tryCatchCheck(a :Int){
         println(a/0)
     }
     catch (e: Exception){
-        print(e.localizedMessage)
+        println(e.localizedMessage)
+
+    }
+    finally {
+        println("Hi, I am finally!")
     }
 }

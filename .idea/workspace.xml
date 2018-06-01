@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92e1440-2e73-4a75-83ea-82f91a8f5cdb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Basics/IfAndWhenKt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Enums.kt" afterPath="$PROJECT_DIR$/src/Basics/Enums.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/ifAndWhen.kt" afterPath="$PROJECT_DIR$/src/Basics/ifAndWhen.kt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinInAction/Basics/ExceptionsKt.class" afterPath="$PROJECT_DIR$/out/production/KotlinInAction/Basics/ExceptionsKt.class" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Exceptions.kt" afterPath="$PROJECT_DIR$/src/Basics/Exceptions.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +26,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exceptions.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exceptions.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Basics/Exceptions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Collections/Collection.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sets.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/Sets.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -68,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/Basics/ifAndWhen.kt" />
         <option value="$PROJECT_DIR$/src/Basics/Enums.kt" />
         <option value="$PROJECT_DIR$/src/Basics/Exceptions.kt" />
+        <option value="$PROJECT_DIR$/src/Collections/Collection.kt" />
       </list>
     </option>
   </component>
@@ -153,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Basics.ExceptionsKt">
+  <component name="RunManager" selected="Kotlin.Collections.CollectionKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -194,18 +215,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="Basics.ClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Basics.ClassKt" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="KotlinInAction" />
-      <envs />
     </configuration>
     <configuration name="Basics.EnumsKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -267,6 +276,18 @@
       <module name="KotlinInAction" />
       <envs />
     </configuration>
+    <configuration name="Collections.CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Collections.CollectionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="KotlinInAction" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -309,19 +330,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.Basics.EnumsKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.Basics.ClassKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.Basics.IfAndWhenKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.Basics.WhileAndForKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.Basics.InKt" />
-      <item index="5" class="java.lang.String" itemvalue="Kotlin.Basics.ExceptionsKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.Basics.IfAndWhenKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.Basics.WhileAndForKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.Basics.InKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.Basics.ExceptionsKt" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.Collections.CollectionKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.Basics.ExceptionsKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.Basics.InKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.Basics.IfAndWhenKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.Basics.WhileAndForKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.Basics.ClassKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.Collections.CollectionKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.Basics.ExceptionsKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.Basics.InKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.Basics.IfAndWhenKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.Basics.WhileAndForKt" />
       </list>
     </recent_temporary>
   </component>
@@ -735,8 +756,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Basics/Exceptions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/Sets.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/Collection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
