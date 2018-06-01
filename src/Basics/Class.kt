@@ -10,6 +10,7 @@ fun main(args:Array<String>){
 
     var rectange: Rectange = Rectange(1,2)
     println(rectange.isSquare)
+    println(rectange is Rectange) //instanceOf() Operator
 
 }
 
@@ -20,3 +21,4 @@ class Rectange(var height:Int, var width:Int){
 
 
 }
+
