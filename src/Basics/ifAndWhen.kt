@@ -1,8 +1,5 @@
 package Basics
 
-fun main(args: Array<String>){
-
-}
 
 class Suneet1 : Expr{
 

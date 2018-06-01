@@ -21,14 +21,14 @@ fun main(args:Array<String>)  {
 
 fun getMnemonics(color:Color):String{
     when(color){
-        Color.ORANGE,Color.YELLOW,Color.RED -> return "ALL SELECTED" //for fun, chck the output
+      //  Color.ORANGE,Color.YELLOW,Color.RED -> return "ALL SELECTED" //for fun, chck the output
         Color.RED -> return "Red"
         Color.YELLOW -> return "Yellow"
         Color.ORANGE -> return "Orange"
 
     //No Breaks used, only that branch is executed
         //We can combile colors in branch
-        Color.ORANGE,Color.YELLOW,Color.RED -> return "ALL SELECTED"
+        //Color.ORANGE,Color.YELLOW,Color.RED -> return "ALL SELECTED"
     }
 }
 
